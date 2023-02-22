@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <form name="frm" method="POST" action="success.html" onSubmit="return validate()" >
+            <fieldset>
+                <table>
+                    <tr><td>First Name: </td><td><input type="text" name="fname" value="" size="5  0" required/></td></tr>
+                    <tr><td>Last Name: </td><td><input type="text" name="lname" value="" size="50" required/></td></tr>
+                    <tr><td>Phone No: </td><td><input type="text" name="phone" value="" size="50" required/></td></tr>
+                    <tr><td>Mail id: </td><td><input type="email" name="mail" value="" size="50" required/></td></tr>
+                    <tr><td>Gender:</td>
+                        <td>Male: <input type="radio" name="gender" value="male">
+                        Female:<input type="radio" name="gender" value="female"></td></tr>
+                    <tr><td>DOB :</td><td><input type="date" name="dob" size="50" required/></td></tr>
+                    <tr><td>User Name: </td><td><input type="text" name="uname" value="" size="50" required/></td></tr>
+                    <tr><td>Password: </td><td><input type="password" name="pwd" value="" size="50" required/></td></tr>
+                    <tr><td>Age: </td><td><input type="number" name="Age" value="" size="50" required/></td></tr>
+               </table>
+                <input type="submit" name="submit" >
+            </fieldset>
+        </form>
+    </center>
+</body>
+</html>
